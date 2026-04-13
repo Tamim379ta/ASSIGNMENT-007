@@ -23,11 +23,11 @@ const FooterPage = () => {
 
         <div className='divider'></div>
 
-        <div className='flex justify-between'>
+        <div className='flex flex-col md:flex-row text-center justify-between'>
           <p className='text-gray-300'>© 2026 KeenKeeper. All rights reserved.</p>
 
-          <div className='flex gap-4 text-gray-300'>
-            <p>Privacy Policy</p>
+          <div className='flex gap-4 justify-center text-gray-300'>
+            <p >Privacy Policy</p>
             <p>Terms of Service</p>
             <p>Cookies</p>
           </div>

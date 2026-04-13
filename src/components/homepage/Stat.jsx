@@ -2,7 +2,7 @@ import React from 'react';
 
 const HeroStat = () => {
   return (
-    <div className=' bg-base-200 '>
+    <div className=' bg-base-200  border border-t-0 border-r-0 border-l-0 border-b-gray-300'>
       <div className="grid grid-cols-2  md:grid-cols-2 lg:grid-cols-4  gap-4 container mx-auto px-5 pbe-10 md:px-20">
 
 

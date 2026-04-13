@@ -1,6 +1,7 @@
 import StatsPage from "@/app/stats/page";
 import { PiPlus } from "react-icons/pi";
 import HeroStat from "./Stat";
+import FriendsPage from "@/app/friends/page";
 
 const BannerPage = () => {
   return (
@@ -18,7 +19,10 @@ const BannerPage = () => {
         </div>
       </div>
 
-      <HeroStat/>
+      <HeroStat />
+
+      <FriendsPage/>
+      
 
     </>
   );

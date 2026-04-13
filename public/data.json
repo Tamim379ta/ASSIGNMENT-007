@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "picture": "https://i.ibb.co.com/tTwmT42m/uifaces-human-avatar-1.jpg",
+    "email": "john.doe@example.com",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": ["college", "close friend"],
+    "bio": "Met in university. Love hiking together.",
+    "goal": 14,
+    "next_due_date": "2026-04-15"
+  },
+  {
+    "id": 2,
+    "name": "Sarah Ahmed",
+    "picture": "https://i.ibb.co.com/35Vhsn1t/uifaces-human-avatar-2.jpg",
+    "email": "sarah.ahmed@example.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["school", "best friend"],
+    "bio": "We studied together in high school. Always supportive.",
+    "goal": 10,
+    "next_due_date": "2026-04-18"
+  },
+  {
+    "id": 3,
+    "name": "Michael Chen",
+    "picture": "https://i.ibb.co.com/k6J75nMz/uifaces-human-avatar.jpg",
+    "email": "michael.chen@example.com",
+    "days_since_contact": 20,
+    "status": "overdue",
+    "tags": ["work", "gym buddy"],
+    "bio": "Met at the gym. We train together on weekends.",
+    "goal": 15,
+    "next_due_date": "2026-04-10"
+  },
+  {
+    "id": 4,
+    "name": "Ayesha Khan",
+    "picture": "https://i.ibb.co.com/bR36jJC7/uifaces-human-avatar-3.jpg",
+    "email": "ayesha.khan@example.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["neighbor", "family friend"],
+    "bio": "Grew up in the same neighborhood. Like a sister.",
+    "goal": 7,
+    "next_due_date": "2026-04-20"
+  },
+  {
+    "id": 5,
+    "name": "David Miller",
+    "picture": "https://i.ibb.co.com/KxP9Dwf0/uifaces-human-avatar-4.jpg",
+    "email": "david.miller@example.com",
+    "days_since_contact": 30,
+    "status": "overdue",
+    "tags": ["college", "roommate"],
+    "bio": "Former roommate. Used to code late nights together.",
+    "goal": 20,
+    "next_due_date": "2026-04-05"
+  },
+  {
+    "id": 6,
+    "name": "Nusrat Jahan",
+    "picture": "https://i.ibb.co.com/TBKvkyyP/uifaces-human-avatar-5.jpg",
+    "email": "nusrat.jahan@example.com",
+    "days_since_contact": 8,
+    "status": "almost due",
+    "tags": ["office", "team member"],
+    "bio": "Colleague from my first job. Very creative person.",
+    "goal": 12,
+    "next_due_date": "2026-04-17"
+  },
+  {
+    "id": 7,
+    "name": "Alex Johnson",
+    "picture": "https://i.ibb.co.com/7trcscYH/uifaces-human-avatar-6.jpg",
+    "email": "alex.johnson@example.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["gaming", "online friend"],
+    "bio": "Met through online gaming. Play every now and then.",
+    "goal": 10,
+    "next_due_date": "2026-04-12"
+  },
+  {
+    "id": 8,
+    "name": "Fatima Noor",
+    "picture": "https://i.ibb.co.com/HThFrMMh/uifaces-human-avatar-7.jpg",
+    "email": "fatima.noor@example.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["university", "study partner"],
+    "bio": "Used to prepare exams together. Very focused and smart.",
+    "goal": 7,
+    "next_due_date": "2026-04-19"
+  },
+  {
+    "id": 9,
+    "name": "Ryan Smith",
+    "picture": "https://i.ibb.co.com/WNcqFTsZ/uifaces-human-avatar-8.jpg",
+    "email": "ryan.smith@example.com",
+    "days_since_contact": 25,
+    "status": "overdue",
+    "tags": ["travel", "adventure buddy"],
+    "bio": "Traveled to multiple places together. Loves adventure.",
+    "goal": 14,
+    "next_due_date": "2026-04-08"
+  },
+  {
+    "id": 10,
+    "name": "Tania Rahman",
+    "picture": "https://i.ibb.co.com/LdnxzbnS/uifaces-human-avatar-9.jpg",
+    "email": "tania.rahman@example.com",
+    "days_since_contact": 6,
+    "status": "on-track",
+    "tags": ["family", "cousin"],
+    "bio": "My cousin. We catch up during family gatherings.",
+    "goal": 10,
+    "next_due_date": "2026-04-16"
+  }
+]
