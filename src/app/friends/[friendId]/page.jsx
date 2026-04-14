@@ -20,8 +20,8 @@ const DetailsPage = async ({ params, handelcall }) => {
   return (
     <div>
 
-      <div className=" py-10 px-5 sm:px-5 md:px-10 flex flex-col md:flex-row    gap-5">
-        <div className=" ">
+      <div className=" py-10 px-5 sm:px-5 md:px-10 flex flex-col md:flex-row gap-5">
+        <div >
           <div className="  text-center shadow-xl border border-gray-200 p-5 space-y-3 rounded-2xl">
             <div className="flex justify-center">
               <Image
@@ -69,7 +69,7 @@ const DetailsPage = async ({ params, handelcall }) => {
 
             <div className="flex flex-col md:flex-row gap-5">
 
-              <div className="text-center flex-1  shadow-2xl rounded-2xl py-10  border border-gray-200">
+              <div className="text-center flex-1 col-span-1 shadow-2xl rounded-2xl py-10  border border-gray-200">
                 <h1 className="font-bold text-3xl">{days_since_contact}</h1>
                 <p className="text-gray-400">Days Scince Contact</p>
               </div>
@@ -86,7 +86,7 @@ const DetailsPage = async ({ params, handelcall }) => {
             </div>
 
 
-            <div className="shadow-2xl p-5 rounded-2xl border border-gray-300">
+            <div className="shadow-2xl p-5 rounded-2xl col-span-1 border border-gray-300">
 
               <div className="flex justify-between">
                 <h1 className="font-semibold">Relationship Goal</h1>
@@ -99,10 +99,10 @@ const DetailsPage = async ({ params, handelcall }) => {
 
             </div>
 
-            <div className="shadow-2xl p-5 border border-gray-300 rounded-2xl">
+            <div className="shadow-2xl p-5 border col-span-1 border-gray-300 rounded-2xl">
               <h1 className="font-semibold">Quick Check-In</h1>
 
-              <CallBtn friend={friend}/>
+              <CallBtn friend={friend} />
             </div>
 
 
