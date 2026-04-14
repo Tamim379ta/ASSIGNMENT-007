@@ -23,7 +23,7 @@ const StatsPage = () => {
     <div className="container mx-auto  py-10">
       <div className="mb-5">
         <h1 className="text-4xl font-bold">Friendship Analytics</h1>
-<br />
+        <br />
       </div>
       <div className="shadow-2xl border mt-4 border-gray-300 p-5">
         <p className="font-bold">By Interaction Type</p>
