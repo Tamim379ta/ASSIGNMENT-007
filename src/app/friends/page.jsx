@@ -3,7 +3,7 @@ import React from 'react';
 
 const FriendsPage = async () => {
 
-  const res = await fetch("http://localhost:3000/data.json", {
+  const res = await fetch("https://assignment-007-9q5ya1fo1-tamimthasan55-8225s-projects.vercel.app/data.json", {
     cache: "no-store"
   })
   const data = await res.json()
