@@ -65,9 +65,9 @@ const DetailsPage = async ({ params, handelcall }) => {
 
         <div className="flex-1  px-2">
 
-          <div className="grid grid-cols-3  gap-5">
+          <div className="grid  gap-5">
 
-            <div className="flex flex-col col-span-1 md:flex-row gap-5">
+            <div className="flex flex-col  md:flex-row gap-5">
 
               <div className="text-center flex-1  shadow-2xl rounded-2xl py-10  border border-gray-200">
                 <h1 className="font-bold text-3xl">{days_since_contact}</h1>
@@ -86,7 +86,7 @@ const DetailsPage = async ({ params, handelcall }) => {
             </div>
 
 
-            <div className="shadow-2xl p-5 rounded-2xl col-span-1 border border-gray-300">
+            <div className="shadow-2xl p-5 rounded-2xl border border-gray-300">
 
               <div className="flex justify-between">
                 <h1 className="font-semibold">Relationship Goal</h1>
@@ -99,7 +99,7 @@ const DetailsPage = async ({ params, handelcall }) => {
 
             </div>
 
-            <div className="shadow-2xl p-5 border col-span-1 border-gray-300 rounded-2xl">
+            <div className="shadow-2xl p-5 border  border-gray-300 rounded-2xl">
               <h1 className="font-semibold">Quick Check-In</h1>
 
               <CallBtn friend={friend} />
