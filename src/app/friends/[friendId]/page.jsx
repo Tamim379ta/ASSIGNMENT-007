@@ -1,11 +1,10 @@
+import CallBtn from "@/components/ui/Btn";
 import Image from "next/image";
-import { FiPhoneCall } from "react-icons/fi";
 import { IoMdArchive } from "react-icons/io";
-import { IoVideocamOutline } from "react-icons/io5";
-import { MdDeleteOutline, MdTextsms } from "react-icons/md";
+import { MdDeleteOutline } from "react-icons/md";
 import { RiNotificationSnoozeLine } from "react-icons/ri";
 
-const DetailsPage = async ({ params }) => {
+const DetailsPage = async ({ params, handelcall }) => {
 
   const { friendId } = await params;
 
@@ -19,7 +18,7 @@ const DetailsPage = async ({ params }) => {
   return (
     <div>
 
-      <div className=" py-10 px-5 flex flex-col md:flex-row container mx-auto  gap-5">
+      <div className=" py-10 px-5 sm:px-5 md:px-10 flex flex-col md:flex-row    gap-5">
         <div className=" ">
           <div className="  text-center shadow-xl border border-gray-200 p-5 space-y-3 rounded-2xl">
             <div className="flex justify-center">
@@ -62,7 +61,7 @@ const DetailsPage = async ({ params }) => {
         </div>
 
 
-        <div className="flex-1  px-10">
+        <div className="flex-1  px-2">
 
           <div className="grid grid-cols-3  gap-5">
 
@@ -101,11 +100,7 @@ const DetailsPage = async ({ params }) => {
             <div className="shadow-2xl p-5 border border-gray-300 rounded-2xl">
               <h1 className="font-semibold">Quick Check-In</h1>
 
-              <div className="flex gap-5 mt-2">
-                <button className="btn flex-1 py-10"> <span ><FiPhoneCall className="text-3xl "/> Call</span></button>
-                <button className="btn flex-1 py-10"><span><MdTextsms className="text-3xl "/> Text</span></button>
-                <button className="btn flex-1 py-10"><span ><IoVideocamOutline className="text-3xl " /> Video</span></button>
-              </div>
+              <CallBtn friend={friend}/>
             </div>
 
 
