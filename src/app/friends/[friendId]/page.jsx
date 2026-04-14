@@ -67,9 +67,9 @@ const DetailsPage = async ({ params, handelcall }) => {
 
           <div className="grid grid-cols-3  gap-5">
 
-            <div className="flex flex-col md:flex-row gap-5">
+            <div className="flex flex-col col-span-1 md:flex-row gap-5">
 
-              <div className="text-center flex-1 col-span-1 shadow-2xl rounded-2xl py-10  border border-gray-200">
+              <div className="text-center flex-1  shadow-2xl rounded-2xl py-10  border border-gray-200">
                 <h1 className="font-bold text-3xl">{days_since_contact}</h1>
                 <p className="text-gray-400">Days Scince Contact</p>
               </div>
