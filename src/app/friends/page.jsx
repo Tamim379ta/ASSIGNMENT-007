@@ -3,7 +3,9 @@ import React from 'react';
 
 const FriendsPage = async () => {
 
-  const res = await fetch("http://localhost:3000/data.json")
+  const res = await fetch("http://localhost:3000/data.json", {
+    cache: "no-store"
+  })
   const data = await res.json()
   return (
     <div className='bg-base-200'>

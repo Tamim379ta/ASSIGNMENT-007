@@ -8,7 +8,9 @@ const DetailsPage = async ({ params, handelcall }) => {
 
   const { friendId } = await params;
 
-  const res = await fetch("http://localhost:3000/data.json")
+  const res = await fetch("http://localhost:3000/data.json", {
+    cache: "no-store"
+  })
   const data = await res.json()
 
   const friend = data.find(f => f.id === Number(friendId));
