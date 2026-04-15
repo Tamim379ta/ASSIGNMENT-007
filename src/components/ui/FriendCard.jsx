@@ -6,7 +6,7 @@ const FriendCard = ({ friend }) => {
   const { name, picture, days_since_contact, status, tags } = friend;
   return (
     <Link href={`/friends/${friend.id}`}>
-      <div className='text-center shadow-xl border border-gray-300 p-5 rounded-2xl space-y-3 '>
+      <div className='text-center shadow-xl border border-gray-300 p-5 rounded-2xl space-y-3 hover:scale-105 duration-300 '>
         <div className='flex justify-center'>
           <Image src={picture}
             alt={name}

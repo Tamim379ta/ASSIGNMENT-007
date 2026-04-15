@@ -20,9 +20,9 @@ const NavbarPage = () => {
         </div>
         <div className="flex-none">
           <ul className="menu menu-horizontal gap-2 px-1">
-            <Link  className= {pathName === "/" ? "btn font-semibold text-white bg-green-800" : "btn"} href={'/'}> <IoHomeOutline /> Home</Link>
-            <Link className={pathName === "/timeline" ? "btn font-semibold text-white bg-green-800" : "btn"} href={'/timeline'}><RiTimeLine /> TimeLine</Link>
-            <Link className={pathName === "/stats" ? "btn font-semibold text-white bg-green-800" : "btn"} href={'/stats'}><TfiStatsUp /> Stats</Link>
+            <Link  className= {`hover:scale-105 duration-300 btn ${pathName === "/" ? "btn font-semibold text-white bg-green-800" : "btn"}`} href={'/'}> <IoHomeOutline /> Home</Link>
+            <Link className={`hover:scale-105 duration-300 btn ${pathName === "/timeline" ? "btn font-semibold text-white bg-green-800" : "btn"}`} href={'/timeline'}><RiTimeLine /> TimeLine</Link>
+            <Link className={` hover:scale-105 duration-300 btn ${pathName === "/stats" ? "btn font-semibold text-white bg-green-800" : "btn"}`} href={'/stats'}><TfiStatsUp /> Stats</Link>
           </ul>
         </div>
       </div>

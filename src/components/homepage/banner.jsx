@@ -14,7 +14,7 @@ const BannerPage = () => {
               Your personal shelf of meaningful connections. Browse, tend, and nurture the
               relationships that matter most.
             </p>
-            <button className="btn bg-green-800 text-white font-semibold "> <PiPlus className="text-xl"/> Add a Friend</button>
+            <button className="btn bg-green-800 text-white font-semibold hover:scale-105 duration-400"> <PiPlus className="text-xl"/> Add a Friend</button>
           </div>
         </div>
       </div>
