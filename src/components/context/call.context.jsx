@@ -23,7 +23,7 @@ const CallProvider = ({ children }) => {
   const data = {
     handleCall,
     call,
-    
+    setCall
   }
   return (
     <CallContext.Provider value={data}>
