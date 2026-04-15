@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌿 KeenKeeper — Keep Your Friendships Alive
 
-## Getting Started
+## 📌 Project Description
 
-First, run the development server:
+KeenKeeper is a modern friendship tracking web application built with Next.js.  
+It helps users stay connected with their friends by logging interactions like calls, texts, and video chats.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Every interaction is recorded in a timeline and visualized in a stats dashboard using a dynamic pie chart.  
+The goal of this project is to make maintaining friendships more meaningful, organized, and visually engaging.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## ✨ Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- 👥 **Friend List & Profile System**  
+  Browse friends on the home page and view detailed information by clicking on any friend card.
 
-## Learn More
+- 📞 **Interaction System (Call / Text / Video)**  
+  Perform actions like call, text, or video chat. Each action triggers a toast notification and logs the activity.
 
-To learn more about Next.js, take a look at the following resources:
+- ⏱️ **Timeline History**  
+  All interactions are stored in a timeline for easy tracking of friendship activities.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 📊 **Statistics Dashboard**  
+  Visual representation of user interactions (calls, texts, video calls) using a dynamic pie chart.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🛠️ Technologies Used
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Next.js  
+- React  
+- JavaScript (ES6+)  
+- Tailwind CSS  
+- DaisyUI  
+- React Toastify  
+- React Spinner  
+- React Icons  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🚀 Live Demo
+
+👉 [Live link](https://assignment-007-eta.vercel.app/)
